@@ -1,0 +1,7 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 3826px;
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%); 
+}
