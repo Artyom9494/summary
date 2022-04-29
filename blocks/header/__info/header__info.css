@@ -1,0 +1,8 @@
+.header__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 447px;
+    position: absolute;
+    top: 268px;
+    z-index: 5;
+}
