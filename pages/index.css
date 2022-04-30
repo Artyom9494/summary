@@ -16,3 +16,10 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__butt/header__butt.css);
 @import url(../blocks/header/__frame/header__frame.css);
+@import url(../blocks/header/__photo/header__photo.css);
+@import url(../blocks/header/__element/header__element.css);
+@import url(../blocks/header/__element/_value/header__element_value_up.css);
+@import url(../blocks/header/__element/_value/header__element_value_left.css);
+@import url(../blocks/header/__element/_value/header__element_value_left-d.css);
+@import url(../blocks/header/__element/_value/header__element_value_left-bottom.css);
+@import url();

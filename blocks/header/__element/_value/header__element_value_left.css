@@ -1,0 +1,18 @@
+@keyframes ani {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.15);
+    }
+}
+
+
+.header__element_value_left {
+    position: absolute;
+    top: 307px;
+    right: 524px;
+    z-index: 2;
+    animation: ani 2s infinite alternate;
+    color: #E2A300;
+}

@@ -3,5 +3,6 @@
     height: 575px;
     position: absolute;
     top: 145px;
-    right: 102px;   
+    right: 102px;
+    z-index: 2;   
 }

@@ -1,0 +1,8 @@
+.header__photo {
+   width: 290px;
+   border-radius: 50%;
+   object-fit: contain;
+   position: absolute;
+   top: 275px;
+   right: 242px; 
+}

@@ -1,0 +1,16 @@
+@keyframes ani {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.15);
+    }
+}
+
+.header__element_value_up {
+  position: absolute;
+  top: 236px;
+  right: 456px;
+  z-index: 2;
+  animation: ani 2s infinite alternate;
+}

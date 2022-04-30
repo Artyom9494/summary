@@ -1,0 +1,17 @@
+@keyframes ani {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.15);
+    }
+}
+
+.header__element_value_left-d {
+    position: absolute;
+    top: 404px;
+    right: 547px;
+    z-index: 2;
+    animation: ani 2s infinite alternate;
+    font-size: 27px;
+}
