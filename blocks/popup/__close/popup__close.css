@@ -1,0 +1,5 @@
+.popup__close {
+    width: 40px;
+    margin: 0;
+    object-fit: cover;
+}

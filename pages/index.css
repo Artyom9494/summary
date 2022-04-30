@@ -23,3 +23,9 @@
 @import url(../blocks/header/__element/_value/header__element_value_left-d.css);
 @import url(../blocks/header/__element/_value/header__element_value_left-bottom.css);
 @import url();
+
+/* popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__butt/popup__butt.css);
+@import url(../blocks/popup/__close/popup__close.css);
