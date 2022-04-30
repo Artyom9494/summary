@@ -9,4 +9,10 @@
     left: 0;
     z-index: 10;
     background: rgba(0, 0, 0, 0.7);
+    transform: translateY(0) scale(0);
+    transition: .9s ease-in;
+}
+
+.popup_activ {
+    transform: translateY(0) scale(100%);
 }
