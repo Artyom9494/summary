@@ -1,0 +1,7 @@
+.about {
+    height: 1847px;
+    width: 100%;
+    margin: 575px auto 0;
+    background-color: #000;
+    display: flex;
+}

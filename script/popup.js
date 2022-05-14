@@ -1,22 +1,31 @@
-let popup = document.querySelector('.popup');
-let openPopup = document.querySelector('.header__butt');
-let popupButt = document.querySelector('.popup__butt');
+const popupContactMe = document.querySelector('.popup_contact-me');
+const popupOpen = document.querySelector('.header__butt');
+const popupButtClose = document.querySelector('.popup__butt');
+const headerLincsPopup = document.querySelector('.header__lincs_popup');
 
 
-function popupClose () {
-    popup.classList.remove('popup_activ');
+const openPopup = (item) => {
+    item.classList.add('popup_activ');
+}
+
+const closePopup = (item) => {
+    item.classList.remove('popup_activ');
 };
 
-openPopup.addEventListener('click', function() {
-    popup.classList.add('popup_activ');
-} );
+popupOpen.addEventListener('click', () => {
+    openPopup(popupContactMe);
+})
 
-popupButt.addEventListener('click', function () {
-    popupClose ();
+popupButtClose.addEventListener('click', () => {
+    closePopup(popupContactMe)
 });
 
-popup.addEventListener('click', function (event) {
-    if (event.target == event.currentTarget) {
-        popupClose ();
-    }
+headerLincsPopup.addEventListener('click', () => {
+    openPopup(popupContactMe);
 })
+//сделать закрытие на оверлайн
+// popup.addEventListener('click', function (event) {
+//     if (event.target == event.currentTarget) {
+//         closePopup (event);
+//     }
+// })

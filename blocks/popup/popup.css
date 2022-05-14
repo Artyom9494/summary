@@ -9,10 +9,12 @@
     left: 0;
     z-index: 10;
     background: rgba(0, 0, 0, 0.7);
-    transform: translateY(0) scale(0);
-    transition: .9s ease-in;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .5s, opacity 0.5s ease-out;
 }
 
 .popup_activ {
-    transform: translateY(0) scale(100%);
+    visibility: visible;
+    opacity: 1;
 }

@@ -23,8 +23,9 @@
 @import url(../blocks/header/__element/_value/header__element_value_left-d.css);
 @import url(../blocks/header/__element/_value/header__element_value_left-bottom.css);
 @import url();
-/* ///// */
-
+/* about*/
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__content/about__content.css);
 /* popup */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__content/popup__content.css);
