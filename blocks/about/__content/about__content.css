@@ -1,9 +1,11 @@
 .about__content {
-    background-color: #0c0a0a;
+    position: relative;
+    background-color: #2C2C2C;
     margin: 50px auto;
     max-width: 496px;
     min-width: 320px;
     max-height: 500px;
     border-radius: 5px;
     text-align: center;
+    /* box-shadow: 5px 5px 2px white, -1px -1px 2px white; */
 }
